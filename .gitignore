@@ -130,14 +130,14 @@ dist
 
 # project specific
 build
-backend/db-data/*
-!backend/db-data/.gitkeep
-backend/redis-data/*
-!backend/redis-data/.gitkeep
-backend/logs/*
-!backend/logs/.gitkeep
-backend/secrets/*
-!backend/secrets/.gitkeep
+db-data/*
+!db-data/.gitkeep
+redis-data/*
+!redis-data/.gitkeep
+logs/*
+!logs/.gitkeep
+secrets/*
+!secrets/.gitkeep
 stuff
 backend/docs
 
@@ -148,4 +148,4 @@ compose.dev.yaml
 .vscode
 
 #tsdocs
-backend/docs/typedocs
+docs/typedocs
